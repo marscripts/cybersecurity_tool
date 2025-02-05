@@ -30,8 +30,8 @@ Instead of memorizing complex syntax, you can select a tool and execute it with 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourrepo/cybersecurity-automation.git
-cd cybersecurity-automation
+git clone https://github.com/marscripts/cybersecurity_tool.git
+cd cybersecurity_tool
 ```
 ````
 
