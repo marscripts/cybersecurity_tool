@@ -1,0 +1,39 @@
+{
+  "nmap": {
+    "description": "Network scanning tool",
+    "profiles": {
+      "1": "-sS -p 1-1000",
+      "2": "-A",
+      "3": "-sV -sC"
+    },
+    "command": "nmap {options} {target}"
+  },
+  "nikto": {
+    "description": "Web server scanner",
+    "profiles": {
+      "1": "",
+      "2": "-Tuning x"
+    },
+    "command": "nikto -h {target} {options}"
+  },
+  "hashcat": {
+    "description": "Password recovery tool",
+    "command": "hashcat {options} -a 0 -m 0 {hash_file} {wordlist}"
+  },
+  "gobuster": {
+    "description": "Directory and subdomain brute-force tool",
+    "profiles": {
+      "1": "dir -u",
+      "2": "dns -d"
+    },
+    "command": "gobuster {options} {target}"
+  },
+  "hydra": {
+    "description": "Online password brute-forcing tool",
+    "command": "hydra -L {username} -P {wordlist} {target} {service}"
+  },
+  "metasploit": {
+    "description": "Penetration testing framework",
+    "command": "msfconsole"
+  }
+}
