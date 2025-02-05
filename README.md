@@ -122,7 +122,7 @@ The author is **not responsible for any misuse.**
 
 ## **🌟 Credits & Contribution**
 
-- **Author:** [Your Name]
+- **Author:** [mrascripts]
 - **Want to add more tools?** PRs are welcome!
 - **Found a bug?** Open an issue! 🚀
 
